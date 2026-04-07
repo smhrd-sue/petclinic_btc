@@ -32,8 +32,9 @@
       p:validationQuery="SELECT 1"
       p:validationInterval="30000"
       p:timeBetweenEvictionRunsMillis="30000"
-      p:minIdle="5"
-      p:maxActive="20"
+      p:minIdle="50"
+      p:maxActive="150"
+      p:maxWait="10000"
       p:removeAbandoned="true"
       p:removeAbandonedTimeout="60"
         />
