@@ -524,9 +524,9 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://db-server-master.mysql.database.azure.com:3306/petclinic?useSSL=true</jdbc.url>
-                <jdbc.username>dbuser</jdbc.username>
-                <jdbc.password>qwert123!</jdbc.password>
+                <jdbc.url>${db.url}</jdbc.url>
+                <jdbc.username>${db.user}</jdbc.username>
+                <jdbc.password>${db.pw}</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
