@@ -34,7 +34,6 @@
       p:timeBetweenEvictionRunsMillis="30000"
       p:minIdle="5"
       p:maxActive="40"
-      p:maxWait="10000"
       p:removeAbandoned="true"
       p:removeAbandonedTimeout="60"
         />
